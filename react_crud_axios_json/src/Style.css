@@ -1,0 +1,147 @@
+body{
+    box-sizing: border-box;
+    background: antiquewhite;
+}
+#contactDiv{
+    display: flex;
+    /* justify-items: center; */
+    align-items: center;
+    justify-content: center;
+}
+#contact{
+    
+    display: flex;
+    flex-direction: column;
+    padding: 6px;
+    box-shadow: 5px 10px 13px -1px;
+    margin-top: 90px;
+}
+label{
+    color: green;
+    font-size: 19px;
+    margin-bottom: 6px;
+}
+span{
+    color:red;
+}
+#contact h1{
+    color:chocolate;
+}
+
+#submit{
+    background: green;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+#contact input{
+    border: 1.5px solid limegreen;
+    width: 350px;
+    height: 27px;
+    border-radius: 5px;
+    padding: 4px;
+}
+
+#nav_ul{
+    display: flex;
+    flex-direction: row;
+  
+    list-style: none;
+    
+    align-items: center;
+    background-color: grey;
+    min-height: 100px;
+    box-sizing: border-box;
+}
+#nav_ul li{
+    margin-left:25px;
+}
+#nav_ul li a{
+    padding: 20px;
+    background: green;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+#app_head{
+   display: flex;
+   justify-content: center;
+   align-items: center; 
+   color: goldenrod;
+   margin-top: 90px
+}
+#table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+    
+   
+}
+
+
+
+#table table tr th{
+   
+    background-color: green;
+    color:white;
+    height: 35px;
+    padding: 10px;
+}
+
+#table table tr td{
+   
+    text-align: center;
+    height: 35px;
+    padding: 10px;
+}
+#table table tr:nth-child(even) {background-color: #f2f2f2;}
+#table table tr td:nth-child(5){
+color:green;
+font-weight: bold;
+text-decoration: none;
+}
+#table table tr td:nth-child(6){
+    color:red;
+    font-weight: bold;
+    cursor: pointer;
+    }
+ a{
+    text-decoration: none;
+}
+
+#errorSec{
+    font-size: 30px;
+    color: red;
+    
+}
+
+#updateButton #update{
+    border: 1.5px solid limegreen !important;
+    width: 100px !important;
+    height: 27px !important;
+    border-radius: 5px !important;
+    padding: 4px !important;
+    background: blue;
+    color: white;
+    font-weight: bold;
+    
+}
+#updateButton #cancel{
+    border: 1.5px solid limegreen !important;
+    width: 100px !important;
+    height: 18px !important;
+    border-radius: 5px !important;
+    padding: 4px !important;
+    margin-left: 148px !important;
+    text-align: center !important;
+    background: red;
+    color: white;
+    font-weight: bold;
+
+}
+#updateButton #cancel:hover{
+    cursor: pointer;
+}
